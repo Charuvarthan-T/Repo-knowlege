@@ -12,6 +12,12 @@ class Neo4jConnection:
     def close(self):
         self.driver.close()
 
+    # RAG part of the code
+    def run_query(self, query, parameters=None):
+        with self.driver.session() as session:
+            result = session.run(query, parameters)
+            return [record for record in result]
+
     def add_function_node(self, file_path, function_name):
         with self.driver.session() as session:
             session.execute_write(self._create_function_node, file_path, function_name)
