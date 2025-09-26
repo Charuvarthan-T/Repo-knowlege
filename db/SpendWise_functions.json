@@ -1,0 +1,339 @@
+{
+  "frontend\\src\\app\\layout.tsx": {
+    "language": "typescript",
+    "functions": {
+      "RootLayout": []
+    },
+    "full_path": "C:\\Users\\charu\\OneDrive\\Desktop\\Repo-knowlege\\temp\\SpendWise\\frontend\\src\\app\\layout.tsx"
+  },
+  "frontend\\src\\app\\page.tsx": {
+    "language": "typescript",
+    "functions": {
+      "Home": [
+        "useAuth",
+        "useRouter",
+        "useEffect",
+        "signInWithPopup"
+      ]
+    },
+    "full_path": "C:\\Users\\charu\\OneDrive\\Desktop\\Repo-knowlege\\temp\\SpendWise\\frontend\\src\\app\\page.tsx"
+  },
+  "frontend\\src\\app\\(dashboard)\\dashboard\\page.tsx": {
+    "language": "typescript",
+    "functions": {
+      "DashboardPage": [
+        "useAuth",
+        "setLoading",
+        "setSpendings",
+        "useEffect",
+        "fetchSpendings",
+        "useState",
+        "getSpendings",
+        "setDailyData"
+      ]
+    },
+    "full_path": "C:\\Users\\charu\\OneDrive\\Desktop\\Repo-knowlege\\temp\\SpendWise\\frontend\\src\\app\\(dashboard)\\dashboard\\page.tsx"
+  },
+  "frontend\\src\\app\\api\\suggestions\\route.ts": {
+    "language": "typescript",
+    "functions": {
+      "getSpendingsForUser": [],
+      "POST": [
+        "headers",
+        "getSpendingsForUser"
+      ]
+    },
+    "full_path": "C:\\Users\\charu\\OneDrive\\Desktop\\Repo-knowlege\\temp\\SpendWise\\frontend\\src\\app\\api\\suggestions\\route.ts"
+  },
+  "frontend\\src\\components\\theme-provider.tsx": {
+    "language": "typescript",
+    "functions": {
+      "ThemeProvider": []
+    },
+    "full_path": "C:\\Users\\charu\\OneDrive\\Desktop\\Repo-knowlege\\temp\\SpendWise\\frontend\\src\\components\\theme-provider.tsx"
+  },
+  "frontend\\src\\components\\auth\\SignOutButton.tsx": {
+    "language": "typescript",
+    "functions": {
+      "SignOutButton": [
+        "useRouter",
+        "signOut"
+      ]
+    },
+    "full_path": "C:\\Users\\charu\\OneDrive\\Desktop\\Repo-knowlege\\temp\\SpendWise\\frontend\\src\\components\\auth\\SignOutButton.tsx"
+  },
+  "frontend\\src\\components\\custom\\DailySpendChart.tsx": {
+    "language": "typescript",
+    "functions": {
+      "DailySpendChart": []
+    },
+    "full_path": "C:\\Users\\charu\\OneDrive\\Desktop\\Repo-knowlege\\temp\\SpendWise\\frontend\\src\\components\\custom\\DailySpendChart.tsx"
+  },
+  "frontend\\src\\components\\dashboard\\AISuggestions.tsx": {
+    "language": "typescript",
+    "functions": {
+      "AISuggestions": [
+        "useAuth",
+        "setLoading",
+        "setSuggestions",
+        "setError",
+        "fetch",
+        "useState"
+      ]
+    },
+    "full_path": "C:\\Users\\charu\\OneDrive\\Desktop\\Repo-knowlege\\temp\\SpendWise\\frontend\\src\\components\\dashboard\\AISuggestions.tsx"
+  },
+  "frontend\\src\\components\\dashboard\\SpendingForm.tsx": {
+    "language": "typescript",
+    "functions": {
+      "SpendingForm": [
+        "useAuth",
+        "alert",
+        "parseFloat",
+        "addSpending",
+        "setAmount",
+        "useState",
+        "setCategory",
+        "isNaN",
+        "setDescription",
+        "onSpendingAdded"
+      ],
+      "alert": []
+    },
+    "full_path": "C:\\Users\\charu\\OneDrive\\Desktop\\Repo-knowlege\\temp\\SpendWise\\frontend\\src\\components\\dashboard\\SpendingForm.tsx"
+  },
+  "frontend\\src\\components\\dashboard\\SpendingList.tsx": {
+    "language": "typescript",
+    "functions": {
+      "SpendingList": [
+        "handleDelete",
+        "deleteSpending",
+        "setSpendings"
+      ]
+    },
+    "full_path": "C:\\Users\\charu\\OneDrive\\Desktop\\Repo-knowlege\\temp\\SpendWise\\frontend\\src\\components\\dashboard\\SpendingList.tsx"
+  },
+  "frontend\\src\\components\\dashboard\\ThemeToggle.tsx": {
+    "language": "typescript",
+    "functions": {
+      "ThemeToggle": [
+        "setMounted",
+        "setTheme",
+        "useTheme"
+      ]
+    },
+    "full_path": "C:\\Users\\charu\\OneDrive\\Desktop\\Repo-knowlege\\temp\\SpendWise\\frontend\\src\\components\\dashboard\\ThemeToggle.tsx"
+  },
+  "frontend\\src\\components\\ui\\accordion.tsx": {
+    "language": "typescript",
+    "functions": {
+      "Accordion": [],
+      "AccordionItem": [
+        "cn"
+      ],
+      "AccordionTrigger": [
+        "cn"
+      ],
+      "AccordionContent": [
+        "cn"
+      ]
+    },
+    "full_path": "C:\\Users\\charu\\OneDrive\\Desktop\\Repo-knowlege\\temp\\SpendWise\\frontend\\src\\components\\ui\\accordion.tsx"
+  },
+  "frontend\\src\\components\\ui\\button.tsx": {
+    "language": "typescript",
+    "functions": {
+      "Button": [
+        "cn",
+        "buttonVariants"
+      ]
+    },
+    "full_path": "C:\\Users\\charu\\OneDrive\\Desktop\\Repo-knowlege\\temp\\SpendWise\\frontend\\src\\components\\ui\\button.tsx"
+  },
+  "frontend\\src\\components\\ui\\card.tsx": {
+    "language": "typescript",
+    "functions": {
+      "Card": [
+        "cn"
+      ],
+      "CardHeader": [
+        "cn"
+      ],
+      "CardTitle": [
+        "cn"
+      ],
+      "CardDescription": [
+        "cn"
+      ],
+      "CardAction": [
+        "cn"
+      ],
+      "CardContent": [
+        "cn"
+      ],
+      "CardFooter": [
+        "cn"
+      ]
+    },
+    "full_path": "C:\\Users\\charu\\OneDrive\\Desktop\\Repo-knowlege\\temp\\SpendWise\\frontend\\src\\components\\ui\\card.tsx"
+  },
+  "frontend\\src\\components\\ui\\chart.tsx": {
+    "language": "typescript",
+    "functions": {
+      "useChart": [],
+      "ChartContainer": [
+        "cn"
+      ],
+      "ChartTooltipContent": [
+        "useChart",
+        "formatter",
+        "cn",
+        "labelFormatter",
+        "getPayloadConfigFromPayload"
+      ],
+      "ChartLegendContent": [
+        "useChart",
+        "cn",
+        "getPayloadConfigFromPayload"
+      ],
+      "getPayloadConfigFromPayload": []
+    },
+    "full_path": "C:\\Users\\charu\\OneDrive\\Desktop\\Repo-knowlege\\temp\\SpendWise\\frontend\\src\\components\\ui\\chart.tsx"
+  },
+  "frontend\\src\\components\\ui\\dropdown-menu.tsx": {
+    "language": "typescript",
+    "functions": {
+      "DropdownMenu": [],
+      "DropdownMenuPortal": [],
+      "DropdownMenuTrigger": [],
+      "DropdownMenuContent": [
+        "cn"
+      ],
+      "DropdownMenuGroup": [],
+      "DropdownMenuItem": [
+        "cn"
+      ],
+      "DropdownMenuCheckboxItem": [
+        "cn"
+      ],
+      "DropdownMenuRadioGroup": [],
+      "DropdownMenuRadioItem": [
+        "cn"
+      ],
+      "DropdownMenuLabel": [
+        "cn"
+      ],
+      "DropdownMenuSeparator": [
+        "cn"
+      ],
+      "DropdownMenuShortcut": [
+        "cn"
+      ],
+      "DropdownMenuSub": [],
+      "DropdownMenuSubTrigger": [
+        "cn"
+      ],
+      "DropdownMenuSubContent": [
+        "cn"
+      ]
+    },
+    "full_path": "C:\\Users\\charu\\OneDrive\\Desktop\\Repo-knowlege\\temp\\SpendWise\\frontend\\src\\components\\ui\\dropdown-menu.tsx"
+  },
+  "frontend\\src\\components\\ui\\input.tsx": {
+    "language": "typescript",
+    "functions": {
+      "Input": [
+        "cn"
+      ]
+    },
+    "full_path": "C:\\Users\\charu\\OneDrive\\Desktop\\Repo-knowlege\\temp\\SpendWise\\frontend\\src\\components\\ui\\input.tsx"
+  },
+  "frontend\\src\\components\\ui\\label.tsx": {
+    "language": "typescript",
+    "functions": {
+      "Label": [
+        "cn"
+      ]
+    },
+    "full_path": "C:\\Users\\charu\\OneDrive\\Desktop\\Repo-knowlege\\temp\\SpendWise\\frontend\\src\\components\\ui\\label.tsx"
+  },
+  "frontend\\src\\components\\ui\\select.tsx": {
+    "language": "typescript",
+    "functions": {
+      "Select": [],
+      "SelectGroup": [],
+      "SelectValue": [],
+      "SelectTrigger": [
+        "cn"
+      ],
+      "SelectContent": [
+        "cn"
+      ],
+      "SelectLabel": [
+        "cn"
+      ],
+      "SelectItem": [
+        "cn"
+      ],
+      "SelectSeparator": [
+        "cn"
+      ],
+      "SelectScrollUpButton": [
+        "cn"
+      ],
+      "SelectScrollDownButton": [
+        "cn"
+      ]
+    },
+    "full_path": "C:\\Users\\charu\\OneDrive\\Desktop\\Repo-knowlege\\temp\\SpendWise\\frontend\\src\\components\\ui\\select.tsx"
+  },
+  "frontend\\src\\components\\ui\\skeleton.tsx": {
+    "language": "typescript",
+    "functions": {
+      "Skeleton": [
+        "cn"
+      ]
+    },
+    "full_path": "C:\\Users\\charu\\OneDrive\\Desktop\\Repo-knowlege\\temp\\SpendWise\\frontend\\src\\components\\ui\\skeleton.tsx"
+  },
+  "frontend\\src\\components\\ui\\table.tsx": {
+    "language": "typescript",
+    "functions": {
+      "Table": [
+        "cn"
+      ],
+      "TableHeader": [
+        "cn"
+      ],
+      "TableBody": [
+        "cn"
+      ],
+      "TableFooter": [
+        "cn"
+      ],
+      "TableRow": [
+        "cn"
+      ],
+      "TableHead": [
+        "cn"
+      ],
+      "TableCell": [
+        "cn"
+      ],
+      "TableCaption": [
+        "cn"
+      ]
+    },
+    "full_path": "C:\\Users\\charu\\OneDrive\\Desktop\\Repo-knowlege\\temp\\SpendWise\\frontend\\src\\components\\ui\\table.tsx"
+  },
+  "frontend\\src\\lib\\utils.ts": {
+    "language": "typescript",
+    "functions": {
+      "cn": [
+        "clsx",
+        "twMerge"
+      ]
+    },
+    "full_path": "C:\\Users\\charu\\OneDrive\\Desktop\\Repo-knowlege\\temp\\SpendWise\\frontend\\src\\lib\\utils.ts"
+  }
+}
