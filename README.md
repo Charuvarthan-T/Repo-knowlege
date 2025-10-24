@@ -2,7 +2,7 @@
 
 A full-stack application that analyzes GitHub repositories and provides intelligent insights through function relationship graphs and AI-powered chat.
 
-## 🚀 Features
+## Features
 
 - **Multi-language Support**: Analyzes Python, JavaScript, TypeScript, JSX, and TSX files
 - **Function Graph Visualization**: Interactive display of function relationships and call patterns
@@ -10,7 +10,7 @@ A full-stack application that analyzes GitHub repositories and provides intellig
 - **Real-time Analysis**: Background processing with status tracking
 - **Source Code Insights**: Understands actual functionality, not just function names
 
-## 🏗️ Architecture
+## Architecture
 
 ### Backend (FastAPI)
 - **Multi-language AST parsing** using tree-sitter
@@ -24,7 +24,7 @@ A full-stack application that analyzes GitHub repositories and provides intellig
 - **Interactive graph visualization** of code structure
 - **Chat interface** for repository exploration
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── src/
@@ -37,7 +37,7 @@ A full-stack application that analyzes GitHub repositories and provides intellig
 └── README.md
 ```
 
-## 🛠️ Setup
+## Setup
 
 ### Backend Setup
 1. Create virtual environment:
@@ -59,26 +59,26 @@ A full-stack application that analyzes GitHub repositories and provides intellig
 ### Frontend Setup
 See the `repo-explorer-ui` repository for frontend setup instructions.
 
-## 🔌 API Endpoints
+## API Endpoints
 
 - `POST /api/v1/ingest` - Start repository analysis
 - `GET /api/v1/ingest/status/{job_id}` - Check analysis status  
 - `GET /api/v1/graph/{repo_name}` - Get function relationship graph
 - `POST /api/v1/chat/{repo_name}` - Chat with repository using RAG
 
-## 🧪 Example Usage
+## Example Usage
 
 1. **Submit Repository**: POST to `/api/v1/ingest` with `{"repo_url": "https://github.com/user/repo"}`
 2. **Track Progress**: GET `/api/v1/ingest/status/{job_id}` until status is "complete"
 3. **Explore Code**: Use the frontend dashboard or API endpoints to explore
 
-## 📊 Supported Languages
+## Supported Languages
 
 - **Python** (.py)
 - **JavaScript** (.js, .jsx) 
 - **TypeScript** (.ts, .tsx)
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -86,6 +86,5 @@ See the `repo-explorer-ui` repository for frontend setup instructions.
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
-
+## License
 MIT License - see LICENSE file for details.
